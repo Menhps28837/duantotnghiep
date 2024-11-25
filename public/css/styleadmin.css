@@ -1,0 +1,156 @@
+.container-fuild {
+    max-width: 1500px;
+}
+.logo {
+    width: 200px;
+}
+
+.fa-bell {
+    margin-top: 25px;
+    font-size: 20px;
+}
+.sothongbao{
+    margin-top: 25px;
+}
+.modal-content {
+    background-color: #fff; /* Màu trắng */
+    border: 1px solid #dee2e6; /* Màu viền nhẹ */
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6; /* Viền dưới */
+}
+
+.modal-footer {
+    border-top: 1px solid #dee2e6; /* Viền trên */
+}
+.badge {
+    font-size: 10px; 
+    padding: 5px; 
+    min-width: 10px; 
+    text-align: center; 
+}
+.userdiachi {
+    width: 350px;
+}
+.card-img-top {
+    width: 65%;
+}
+
+
+
+@media (max-width: 480px ) {
+    .container-fuild {
+        max-width: 960px !important;
+    }
+    .logo {
+        width: 150px;
+    }
+    
+    .fa-bell {
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    .sothongbao{
+        margin-top: 25px;
+        font-size: 10px;
+    }
+    .tenadmin {
+        font-size: 20px;
+    }
+    .col-2 ul {
+        width: 150px !important;
+    }
+    .nav-link span {  
+        width: 120px;
+        font-size: 14px !important;
+    }
+    
+    .fa-angle-right  {
+        margin-top: -43px;
+        font-size: 24px;
+    }
+    
+    .text-uppercase {
+        font-size: 14px;
+    }
+
+    .spgia {
+        width: 300px;
+    }
+    .trangthai{
+        width: 200px;
+    }
+    .sltonkho {
+        width: 100px;
+    }
+    .shadow-none option {
+        font-size: 12px;
+    }
+    .card-img-top {
+        width: 100%;
+    }
+  
+}
+@media (min-width: 481px) and (max-width: 1024px ) {
+    .container-fuild {
+        max-width: 780px !important;
+    }
+   
+    .fa-bell {
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    .sothongbao{
+        margin-top: 25px;
+        font-size: 10px;
+    }
+    .tenadmin {
+        font-size: 20px;
+    }
+    .col-2 ul {
+        width: 150px !important;
+    }
+    .col-2 ul li{
+        width: 10px !important;
+    }
+    .col-10 {
+        overflow: hidden;
+        padding-right: 0px;
+        padding-left: 50px;
+    }
+    .nav-link span {  
+        width: 120px;
+        font-size: 14px !important;
+    }
+    .fa-angle-right  {
+        margin-top: -43px;
+        font-size: 24px;
+    }
+    
+    .text-uppercase {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px ) {
+    .container-fuild {
+        max-width: 1260px !important;
+    }
+    .col-2 ul{
+        width: 210px !important;
+    }
+    .col-10 {
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    .spgia {
+        width: 180px;
+    }
+    .trangthai{
+        width: 200px;
+    }   
+    .sltonkho {
+        width: 100px;
+    }
+}

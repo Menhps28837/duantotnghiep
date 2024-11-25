@@ -1,0 +1,331 @@
+.sp { 
+    height: 250px; 
+    display: flex; align-items: center; 
+    justify-content: center;
+    
+}
+.logo {
+    width: 90%; height: auto; margin-left: 15px;
+}
+
+/* header { position: relative; height: 100px; background-color: #ffd400; } */
+/* header > #logo { width: 300px; height: 80px; bottom: 10px; left: 30px; position: absolute;} */
+/* header > #giohang { position: absolute; bottom: 10px; right: 10px; color: white} 
+#doitac #data img { width: 180px; height: 110px; border-radius: 50%; border:1px solid black; margin: 5px} 
+nav { height: 100px; } */
+/* nav > a { text-decoration: none; font-size: 1.2em; color: white; margin:5px  }
+nav > a:hover { text-decoration: underline;} */
+
+
+
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.header-top{
+    /* background-color: #ffd400; */
+    width: 100%;
+    height: 80px;
+}
+.header-top a {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.header-top>div  {
+    align-items: center;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    max-width: 1220px;
+    margin: auto;
+    padding: 0 10px;
+}
+.header-address {
+    color: #333;
+    font-size: 11px;
+    line-height: 15px;
+    margin-right: 10px;
+    width: 13%;
+    background: rgba(255, 172, 10, .6);
+    padding: 4px 6px 4px 10px;
+    border-radius: 4px;
+    position: relative;
+}
+.timkiem {
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px
+}
+.name-order {
+    color: #333;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 6px 14px;
+    width: 10%;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: rgba(255, 172, 10, .6);
+}
+.header-cart {
+    border-radius: 4px;
+    color: #333;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 12px 10px;
+    width: 10%;
+   
+    background: rgba(255, 172, 10, .6);
+}
+.header-listtop {
+    align-items: center;
+    display: flex;
+    width: 28%;
+}
+.header-listtop a {
+    padding: 0 12px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    line-height: 16px;
+}
+.container-fluid {
+    padding: 0;
+}
+.collapse  {
+    color: black;
+    font-size: 15px;
+    margin-top: -15px;
+    /* margin-left: 10px; */
+}
+
+.nav-item a {
+    /* padding: 10px; */
+    color: white;
+    font-size: 16px;
+}
+
+.nav-item .dropdown-item{
+    /* padding: 10px; */
+    font-size: 16px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #dddddd;
+}
+
+.dropdown-menu {
+    padding: 0;
+    font-size: 13px;
+    text-align: left;
+    background-color: #fff;
+    display: none;  /* Ẩn mặc định */
+    position: absolute;
+  }
+  .dropdown-danh-muc:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+  }
+
+  .dropdown-danh-muc .dropdown-menu.show {
+    display: block;  /* Hiển thị khi click */
+    left: 529px;
+    top: 108px;
+}
+
+
+#giohang {
+    position: relative;
+    display: inline-block;
+}
+#giohang i {
+    font-size: 24px;
+    margin-right: 5px;
+
+}
+
+.cart-count {
+    position: absolute;
+    top: -15px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 14px;
+}
+
+.floating-icons {
+    position: fixed;
+    top: 78%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.floating-icons .icon {
+    display: block;
+    margin-bottom: 15px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.floating-icons .icon:hover {
+    opacity: 1;
+}
+
+.floating-icons img {
+    width: 60px; /* Kích thước biểu tượng */
+    height: 60px;
+}
+
+  .btn-add-to-cart {
+      background-color: #ff4d4d; 
+      color: white;
+      font-size: 16px;
+      padding: 10px 20px; 
+      border-radius: 25px; 
+      border: 2px solid #ff4d4d; 
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease-in-out; 
+  }
+
+
+  .btn-add-to-cart:hover {
+      background-color: #e60000; 
+      border-color: #e60000; 
+      transform: scale(1.05); 
+  }
+
+  .btn-add-to-cart i {
+      margin-right: 8px;
+  }
+
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Đảm bảo chiều cao sản phẩm luôn bằng nhau */
+    justify-content: space-between; /* Đảm bảo khoảng cách giữa các phần tử trong card */
+}
+
+.product-content {
+    flex-grow: 1; /* Đảm bảo phần content sẽ co giãn và chiếm không gian còn lại */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-img {
+    max-height: 200px; /* Giới hạn chiều cao ảnh nếu cần thiết */
+    object-fit: contain; /* Đảm bảo ảnh không bị méo */
+}
+
+.product-title {
+    flex-shrink: 0; /* Đảm bảo tiêu đề không bị co lại khi có chữ dài */
+}
+
+.giohangimg {
+    width: 200px;
+}
+
+
+/* footer {
+    background-color: #f4d641; 
+} */
+
+@media (max-width: 576px ) {
+    header .container{
+        width: 1024px !important;
+    }
+    .logo {
+        width: 90px;
+        height: 30px;
+    }
+    .inputtimkiem {
+        margin-top: -5px;
+        width: 20px !important;
+        height: 30px;
+    }
+    .inputtim {
+        margin-top: -5px;
+        height: 30px;
+        font-size: 10px;
+    }
+    nav li a {
+        color: white;
+        height: 100px;
+    }
+    .itemgiohang{
+        width: 10px;
+    }
+    .sogiohang{
+        width: 20px;
+    }
+    .taikhoan {
+        margin-right: -30px;
+    }
+    .dn {
+        font-size: 5px;
+    }
+    .col-3 .img-fluid {
+        width: 200px !important;
+    }
+    .cartimg img {
+        width: 40px !important;
+    }
+    .thanhth th {
+        font-size: 9px;
+    }
+    .thanhtd td {
+        font-size: 9px;
+    }
+    .giohangimg {
+        width: 10px !important;
+    }
+    .giohangsoluong {
+        width: 35px !important;
+        font-size: 10px;
+        padding: 0px;
+    }
+    .giohangdongia {
+        width: 105px;
+    }
+    .giohangthanhtien {
+        width: 150px;
+    }
+    .giohangxoa {
+        width: 1px !important;
+    }
+    .soluongtien {
+        font-size: 9px;
+    }
+    .btn-outline-danger {
+        font-size: 8px;
+    }
+    .btn-outline-warning {
+        font-size: 10px;
+    }
+    .table-giohang {
+        margin-left: 10px;
+    }
+    
+    .page-link {
+        height: 40px;
+    }
+     /* theo dõi đơn hàng */
+    .table-theodoidonhang{
+        font-size: 14px;
+    }
+    .xemchitiet {
+        font-size: 12px;
+    }
+}
